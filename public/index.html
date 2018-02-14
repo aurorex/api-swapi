@@ -11,7 +11,7 @@
     <!-- link a fontawesome  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- link de googlefonts -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Acme|Righteous" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- link main CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- Título de pestaña -->
@@ -19,76 +19,149 @@
   </head>
   <body>
     <header>
-      <nav>
-
-      </nav>
+      <h1 class="text-center font-weight-bold p-4 mb-5 title-bckground">Swapi App</h1>
 
     </header>
 
     <main>
-      <section class="container-fluid">
-        <h1 class="text-center">Swapi App</h1>
+      <section class="container-fluid mb-4">
         <div class="row">
           <div class="col">
-            <img src="assets/images/anakin-skywalker.png"  alt="character-1" class="img-fluid image-api" data-target="11">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Anakin Skywalker</h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/anakin-skywalker.png" alt="character-1" class="img-fluid h-75 w-100 image-api" data-img="11"></a>
           </div>
           <div class="col">
-            <img src="assets/images/beru-whitesun-lars.jpg" alt="character-2" class="img-fluid image-api" data-target="7">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Beru Whitesun lars
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/beru-whitesun-lars.jpg" alt="character-2" class="img-fluid h-75 w-100 image-api" data-img="7"></a>
           </div>
           <div class="col">
-            <img src="assets/images/biggs-darklighter.jpg" alt="character-3" class="img-fluid image-api" data-target="9">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Biggs Darklighter
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/biggs-darklighter.jpg" alt="character-3" class="img-fluid h-75 w-100 image-api" data-img="9"></a>
           </div>
           <div class="col">
-            <img src="assets/images/c-3po.png" alt="character-4" class="img-fluid image-api" data-target="2">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">C-3PO
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/c-3po.png" alt="character-4" class="img-fluid h-75 w-100 image-api " data-img="2"></a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src="assets/images/chewbacca.png" alt="character-5" class="img-fluid image-api" data-target="13">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Chewbacca
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/chewbacca.png" alt="character-5" class="img-fluid h-75 w-100 image-api" data-img="13" ></a>
           </div>
           <div class="col">
-            <img src="assets/images/darth-vader.jpg" alt="character-6" class="img-fluid image-api" data-target="4">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Darth Vader
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/darth-vader.jpg" alt="character-6" class="img-fluid h-75 w-100 image-api" data-img="4" ></a>
           </div>
           <div class="col">
-            <img src="assets/images/greedo.jpg" alt="character-7" class="img-fluid image-api" data-target="15">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Greedo
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/greedo.jpg" alt="character-7" class="img-fluid h-75 w-100 image-api" data-img="15"></a>
           </div>
           <div class="col">
-            <img src="assets/images/han-solo.jpg" alt="character-8" class="img-fluid image-api" data-target="14">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <img src="assets/images/leia-organa.png" alt="character-9" class="img-fluid image-api" data-target="5">
-          </div>
-          <div class="col">
-            <img src="assets/images/luke-skywalker.png" alt="character-10" class="img-fluid image-api" data-target="1">
-          </div>
-          <div class="col">
-            <img src="assets/images/obi-wan-kenobi.png" alt="character-11" class="img-fluid image-api" data-target="10">
-          </div>
-          <div class="col">
-            <img src="assets/images/owen-lars.png" alt="character-12" class="img-fluid image-api" data-target="6">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Han Solo
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/han-solo.jpg" alt="character-8" class="img-fluid h-75 w-100 image-api" data-img="14"></a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src="assets/images/r2-d2.jpg" alt="character-13" class="img-fluid image-api" data-target="3">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Leia Organa
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/leia-organa.png" alt="character-9" class="img-fluid h-75 w-100 image-api" data-img="5" ></a>
           </div>
           <div class="col">
-            <img src="assets/images/r5-d4.jpg" alt="character-14" class="img-fluid image-api" data-target="8">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Luke Skywalker
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/luke-skywalker.png" alt="character-10" class="img-fluid h-75 w-100 image-api" data-img="1"></a>
           </div>
           <div class="col">
-            <img src="assets/images/wilhuff-tarkin.png" alt="character-15" class="img-fluid image-api" data-target="12">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Obi-Wan Kenobi
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/obi-wan-kenobi.png" alt="character-11" class="img-fluid h-75 w-100 image-api" data-img="10"></a>
           </div>
           <div class="col">
-            <img src="assets/images/yoda.jpg" alt="character-16" class="img-fluid image-api" data-target="20">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Owen Lars
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/owen-lars.png" alt="character-12" class="img-fluid h-75 w-100  image-api" data-img="6"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">R2-D2
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/r2-d2.jpg" alt="character-13" class="img-fluid h-75 w-100 image-api" data-img="3"></a>
+          </div>
+          <div class="col">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">R5-D4
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/r5-d4.jpg" alt="character-14" class="img-fluid h-75 w-100 image-api" data-img="8" ></a>
+          </div>
+          <div class="col">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Wilhuff Tarkin
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/wilhuff-tarkin.png" alt="character-15" class="img-fluid h-75 w-100 image-api" data-img="12"></a>
+          </div>
+          <div class="col">
+            <h3 class="text-center mb-4 font-weight-bold character-name" id="character-name-title">Yoda
+            </h3>
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="assets/images/yoda.jpg" alt="character-16" class="img-fluid h-75 w-100 image-api" data-img="20"></a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p class="text-center">Copyright&copy; Swapi App</p>
+    <!-- SECCIÓN DE VENTANA EMERGENTE REUTILIZABLE -->
+    <section>
+      <div class="modal fade" id="modal-character-info" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- Título donde irá el nombre del personaje -->
+              <h2 class="modal-title text-center font-weight-bold character-name" id="character-name">Name</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body container-fluid">
+              <div class="row">
+                <div class="col-6 offset-1 col-md-5 img-modal-container">
+                  <img src="" alt="" class="img-fluid" id="character-img">
+                </div>
+                <div class="col-10 offset-1 col-md-5 info-modal-container">
+                  <div class="col-5 col-md-10">
+                    <p class="mr-1 modal-subtitles">Especies:
+                      <span class="" id="species"></span>
+                    </p>
+                    <p class="mr-1 modal-subtitles">Language:
+                      <span class="" id="language"></span>
+                    </p>
+                    <p class="mr-1 modal-subtitles">Average life span:
+                      <span class="" id="average-life-span"></span>
+                    </p>
+
+                  </div>
+                  <div class="col-5 col-md-10">
+                    <p class="mr-1 modal-subtitles" id="film-list-container">Birth Year: <span id="birth_year"></span>
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+              <button type="button" class="btn btn-primary text-uppercase center-block btn-color" id="btn-modal">Close</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </section>
+
+    <footer class="p-4">
+      <p class="text-center font-weight-bold">Copyright&copy; Swapi App</p>
     </footer>
 
 
