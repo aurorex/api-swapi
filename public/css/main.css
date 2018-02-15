@@ -1,6 +1,19 @@
 /* Clases reutilizables */
+body {
+  background-color: #FAFAFA;
+}
+
+footer {
+  background-color: #466972;
+}
 
 /* Clases específicas */
-.col {
-  background-color: grey;
+.title-bckground {
+  background-color: #E77F99;
+  margin: 0;
+}
+
+.btn-color {
+  background-color: #48BBC7!important;
+  border-color: #48BBC7;
 }
