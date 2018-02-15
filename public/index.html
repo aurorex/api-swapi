@@ -30,62 +30,108 @@
         <h1 class="text-center">Swapi App</h1>
         <div class="row">
           <div class="col">
-            <img src="" alt="character-1" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-1" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-2" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-2" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-3" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-3" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-4" class="img-fluid">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <img src="" alt="character-5" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="" alt="character-6" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="" alt="character-7" class="img-fluid">
-          </div>
-          <div class="col">
-            <img src="" alt="character-8" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-4" class="img-fluid"></a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src="" alt="character-9" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-5" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-10" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-6" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-11" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-7" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-12" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-8" class="img-fluid"></a>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src="" alt="character-13" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-9" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-14" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-10" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-15" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-11" class="img-fluid"></a>
           </div>
           <div class="col">
-            <img src="" alt="character-16" class="img-fluid">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-12" class="img-fluid"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-13" class="img-fluid"></a>
+          </div>
+          <div class="col">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-14" class="img-fluid"></a>
+          </div>
+          <div class="col">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-15" class="img-fluid"></a>
+          </div>
+          <div class="col">
+            <a data-toggle="modal" data-target="#modal-character-info"><img src="" alt="character-16" class="img-fluid"></a>
           </div>
         </div>
       </section>
     </main>
+
+    <!-- SECCIÓN DE VENTANA EMERGENTE REUTILIZABLE -->
+    <section>
+      <div class="modal fade" id="modal-character-info" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <!-- Título donde irá el nombre del personaje -->
+              <h2 class="modal-title text-center" id="character-name">Name</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body container-fluid">
+              <div class="row">
+                <div class="col-10 offset-1 col-md-5 img-modal-container">
+                  <img src="" alt="" class="img-fluid" id="character-img">
+                </div>
+                <div class="col-10 offset-1 col-md-5 info-modal-container">
+                  <div class="col-5 col-md-10">
+                    <p class="mr-1">Especies:
+                      <pan class="" id="species"></pan>
+                    </p>
+                    <p class="mr-1">Language:
+                      <pan class="" id="language"></pan>
+                    </p>
+                    <p class="mr-1">Average life span:
+                      <pan class="" id="average-life-span"></pan>
+                    </p>
+
+                  </div>
+                  <div class="col-5 col-md-10">
+                    <p class="mr-1" id="film-list-container">Film list:
+
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+              <button type="button" class="btn btn-primary text-uppercase center-block" id="btn-modal">Close</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </section>
 
     <footer>
       <p class="text-center">Copyright&copy; Swapi App</p>
