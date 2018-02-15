@@ -1,19 +1,46 @@
 /* Clases reutilizables */
 body {
   background-color: #FAFAFA;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: #E77F99;
+  letter-spacing: 2px;
 }
 
 footer {
   background-color: #466972;
+  font-size: 18px;
 }
 
 /* Clases específicas */
-.title-bckground {
-  background-color: #E77F99;
-  margin: 0;
+.character-name {
+  color: #466972;
+  letter-spacing: 1.5px;
 }
 
 .btn-color {
   background-color: #48BBC7!important;
   border-color: #48BBC7;
+}
+
+.btn-primary:hover {
+  background-color: #58C1CC!important;
+  border-color: #58C1CC;
+}
+
+.modal-content {
+  color: #9BA9C9;
+}
+
+.modal-subtitles {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.modal-subtitles span {
+  font-weight: normal;
+  font-size: 16px;
 }
