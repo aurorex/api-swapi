@@ -20,6 +20,11 @@ footer {
   letter-spacing: 1.5px;
 }
 
+a img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
 .btn-color {
   background-color: #48BBC7!important;
   border-color: #48BBC7;
@@ -29,6 +34,16 @@ footer {
   background-color: #58C1CC!important;
   border-color: #58C1CC;
 }
+
+ .modal-header {
+   border-bottom: 1px solid #F4D164!important;
+   /* border-bottom: 1px solid #E77F99!important; */
+ }
+
+ .modal-footer {
+   border-top: 1px solid #F4D164!important;
+   /* border-top: 1px solid #FE77F99!important; */
+ }
 
 .modal-content {
   color: #9BA9C9;
