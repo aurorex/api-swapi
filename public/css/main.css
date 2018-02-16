@@ -1,38 +1,71 @@
 /* Clases reutilizables */
 body {
-  background-color: #FAFAFA;
+  /* background-color: rgb(14, 11, 11); */
   font-family: 'Raleway', sans-serif;
+  background-image: url('../assets/images/fondo7.gif');
+  /* background-size: cover;
+  height: 100vh */
+  /* background-repeat: no-repeat; */
 }
 
 header {
-  background-color: #E77F99;
+  background-color: transparent;
+  text-shadow: 2px 3px 3px rgb(31, 30, 30);
+  background-image: url('../assets/images/fondo1.jpg');
+  height: 200px;
   letter-spacing: 2px;
+  color: #f9fcfd;
+  
 }
 
+header h1{
+  font-size: 100px;
+}
 footer {
-  background-color: #466972;
+  background-color: #F4D164!important;
   font-size: 18px;
 }
 
 /* Clases específicas */
 .character-name {
-  color: #466972;
+  color: #fdffff;
   letter-spacing: 1.5px;
+  font-size: 20px;
+  text-shadow: 2px 3px 3px rgb(88, 97, 99);
+}
+
+.container-img{
+  padding: 15px 0;
+  
+}
+
+img{
+  margin: 0 70px;
+  width: 100px;
+  height:75px; 
+  background-color: white;
+  border-radius:5px;
+  border: 3px solid  #F4D164!important;
 }
 
 a img:hover {
   cursor: pointer;
-  opacity: 0.3;
+  opacity: 0.6;
+  border: 3px solid rgb(56, 34, 248)!important;
 }
 
 .btn-color {
-  background-color: #48BBC7!important;
-  border-color: #48BBC7;
+  background-color: #F4D164!important;
+  border-color:#F4D164!important;
+  outline: none;
+  color: aliceblue;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
-  background-color: #58C1CC!important;
-  border-color: #58C1CC;
+  background-color: #F4D164!important;
+  border-color:#F4D164!important;
+  outline: none;
 }
 
  .modal-header {
@@ -46,13 +79,21 @@ a img:hover {
  }
 
 .modal-content {
-  color: #9BA9C9;
+  color: aliceblue;
+  background-image: url('../assets/images/fondo8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .modal-subtitles {
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 1.5px;
+  color:  rgb(248, 248, 247)!important;
+}
+
+.modal-subtitles span{
+  color: #F4D164!important;
 }
 
 .modal-subtitles span {
