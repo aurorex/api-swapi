@@ -11,4 +11,4 @@
 ![Responsive-Desktop](public/assets/docs/swapi1.png)
 
 * Ventana emergente con información anecdótica de los personajes
-![Responsive-Desktop](public/assets/docs/swapi2.png)
+![Responsive-Desktop](public/assets/docs/swapi3.png)
