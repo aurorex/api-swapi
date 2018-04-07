@@ -10,7 +10,7 @@
 
 <!-- * Ventana emergente con información anecdótica de los personajes
  -->
-![Responsive-Desktop](public/assets/images/api-swapi.png)
+![Responsive-Desktop](https://user-images.githubusercontent.com/29168733/38451528-18720276-39f7-11e8-9b0f-ace86a2eaa4a.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
