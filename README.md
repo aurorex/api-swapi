@@ -11,7 +11,7 @@
 
 <!-- * Ventana emergente con información anecdótica de los personajes
  -->
-![Responsive-Desktop](public/assets/docs/api-swapi.png)
+![Responsive-Desktop](public/assets/images/api-swapi.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
