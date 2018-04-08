@@ -10,7 +10,7 @@
 
 <!-- * Ventana emergente con información anecdótica de los personajes
  -->
-![apiSwapi](https://user-images.githubusercontent.com/29168733/38461859-dbdb0d8a-3aa0-11e8-831c-7651eece00a5.png)
+![apiswapi](https://user-images.githubusercontent.com/29168733/38461954-21d48468-3aa3-11e8-8dc4-7970842287e6.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
