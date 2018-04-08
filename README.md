@@ -1,5 +1,11 @@
 # SWAPI
- La app Swapi nos brinda una colección de imagenes de los personajes de la pelicula STAR WARS con singulares características de cada personaje.
+ La app Swapi nos brinda una colección de imagenes de los personajes de la pelicula STAR WARS con singulares características de cada personaje
+
+![swapi3](https://user-images.githubusercontent.com/29168733/38462077-b0021c4e-3aa5-11e8-9b17-63e8b9e4a41d.png)
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
 
 <!-- ## Como recurso usamos el api de SWAPI
 
@@ -10,10 +16,6 @@
 
 <!-- * Ventana emergente con información anecdótica de los personajes
  -->
-![redBus](https://user-images.githubusercontent.com/29168733/38452035-bdc2a894-3a00-11e8-83a8-611c332b374e.png)
-
-## Desarrollado para 
-[Laboratoria](http://laboratoria.la)
 
 
 
